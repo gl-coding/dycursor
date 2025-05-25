@@ -15,7 +15,7 @@ class MouseControlApp(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("鼠标控制器")
-        self.setGeometry(100, 100, 500, 200)
+        self.setGeometry(0, 0, 500, 200)  # 启动时放在屏幕左上角 (0,0)
 
         # 输入框
         self.left_input = QLineEdit("10")
