@@ -108,7 +108,7 @@ class MouseControlApp(QWidget):
         pyautogui.moveTo(start_x, y, duration=0.5)
         time.sleep(0.5)
 
-        for i in range(10):
+        for i in range(1000):
             if self.stop_flag:
                 break
             pyautogui.moveTo(end_x, y, duration=5)
